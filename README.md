@@ -1,5 +1,26 @@
 ﻿# LED-snakes
 
+🐍 LED-snakes: A Concurrent Snake Game
+Welcome to LED-snakes, a multi-threaded and interactive take on the classic Snake game! This project explores the design and implementation of a concurrent snake simulation, where multiple snakes (either human- or CPU-controlled) navigate a shared space in real-time — competing for food, avoiding collisions, and behaving with an intentional laziness to limit rapid action changes.
+
+Built with Java and a custom GUI framework, LED-snakes is more than just a game — it’s a deep dive into object-oriented programming, GUI design, and thread-safe concurrency using synchronized mechanics.
+
+The game showcases:
+
+🧠 Smart, lazy snakes that don’t like frequent direction changes
+
+🍎 Randomly generated food across the board
+
+🔁 Seamless screen wrap-around when snakes exit the frame
+
+🤖 A mix of human and CPU-controlled players
+
+⏱️ No time limit, just strategy and survival
+
+The codebase is organized into modular components like Snake, GUI Snake, Score, Food, Board, Player, and Game, all managed through a central Preparation class that acts like a Swiss Army knife — connecting and initializing all elements.
+
+With concurrency challenges tackled through synchronized access and locks, this project was both a programming puzzle and a visual success. If you're interested in real-time multi-threaded Java GUI games, this repository offers valuable insights and potential for extension.
+
 Explanation: My project is about making a concurrent Snake Game.
 Rules:
 1. My Snake Game is made up of several rules:
